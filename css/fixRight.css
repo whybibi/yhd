@@ -1,0 +1,64 @@
+#right_user_div{
+    width: 35px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #303030;
+    z-index: 200;
+    text-align: center;
+}
+#right_user_div a{
+    color: white;
+}
+/*#right_user_div img{*/
+/*width: 28px;*/
+/*height: 22px;*/
+/*}*/
+#user_main{
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    margin-top: 200px;
+}
+#user_buyCar{
+    width: 35px;
+    height: 130px;
+    font-size: 16px;
+    margin-top: 5px;
+    background-color: #4c4c4c;
+}
+#user_buyCar:hover{
+    background-color: #f27d76;
+    cursor: pointer;
+}
+#user_buyCar p{
+    width: 25px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#user_coupon{
+    width: 35px;
+    height: 30px;
+    font-size: 11px;
+    margin-top: 5px;
+}
+#user_qr_code{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 35px;
+}
+#user_to_top{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+}
+.fixRD:hover{
+    background-color: #f27d76;
+    cursor: pointer;
+}

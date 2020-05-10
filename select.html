@@ -1,0 +1,280 @@
+<script>
+	var price1 = new Array(888,198,368,188,998,1899,2988,3999,6888,2333,666,789,1030,250,150,670,188,360,600,988,7500,320);
+	var title1 = new Array("周大福（CHOW TAI FOOK）优雅 珍珠项链 T70425 560 40cm","黛米珠宝 浓情 淡水珍珠项链 送妈妈 8-9mm45cm","凯亚斯GAIA’SPEARL 925银淡水珍珠吊坠简约珍珠项链女 微瑕",
+        "京润珍珠致爱S925银镶白色淡水珍珠项链10-11mm长款80cm","京润珍珠牵绊2-5mm淡水珍珠吊坠项链S925银镶圆形白色40cm","凯亚斯GAIA’SPEARL珍珠项链椭圆强光温婉紫色淡水珍珠珠链S925扣7-8mm43cm",
+        "凯亚斯GAIA'SPEARL18K金AKOYA海水珍珠项链黄金满天星九颗项链女带加长链可调节长度","凯亚斯GAIA’SPEARL珍珠项链强光淡水馒头珠珍珠珠链10-11mm47cm","凯亚斯GAIA’SPEARL珍珠吊坠925银强光淡水珍珠项链简约女",
+        "卡雷尼奥.杜兰（Carrenoduran）珍珠项链强光淡水近圆珍珠项链珠链9-10mm47cm","凯亚斯GAIA’SPEARL10-11MM淡水珍珠项链女正圆强光微暇送妈妈礼物45CM XL03011","凯亚斯GAIA’SPEARL珍珠项链强光淡水圆珍珠珠链吊坠9.5-10.5mm47cm",
+        "京润珍珠静心7-8mm淡水珍珠项链40cm配红玛瑙","凯亚斯GAIA’SPEARL珍珠吊坠925银强光淡水珍珠项链胜利女神女","凯亚斯GAIA’SPEARL珍珠项链强光淡水圆珍珠珠链吊坠7.5-8.5mm43cm","银生（YESON）吸扣毛衣链 3-7mm 淡水珍珠项链 白色 圆珠 合金 一款两戴式毛衣链 白色 均码",
+        "海蒂（haidi）圆珠满天星淡水珍珠项链","黛米（daimi） 姗阑 近圆强光淡水珍珠满天星毛衣链 白色 7-8mm160","黛米珠宝 轻奢 满天星项链强光淡水珍珠 18K金链 5-5.5mm 40cm","卡雷尼奥.杜兰（Carrenoduran） 淡水珍珠项链近正圆强光微暇女送妈妈9-10mm43cm XL06125",
+        "京润珍珠世界大鱼海棠系列6-7mm圆形925银镶淡水珍珠吊珠项链珠宝吊链45cm银色款");
+	var dianpu = new Array("周大福自营官方旗舰店","黛米自营官方旗舰店","凯亚斯自营官方旗舰店","京润自营官方旗舰店","京润自营官方旗舰店","凯亚斯自营官方旗舰店","凯亚斯自营官方旗舰店","凯亚斯自营官方旗舰店",
+        "卡雷尼奥.杜兰自营官方旗舰店","凯亚斯自营官方旗舰店","凯亚斯自营官方旗舰店","京润自营官方旗舰店","黛米自营官方旗舰店","黛米自营官方旗舰店","卡雷尼奥.杜兰自营官方旗舰店","京润自营官方旗舰店","自营官方旗舰店","自营官方旗舰店",
+        "自营官方旗舰店","自营官方旗舰店");
+	var select = new Array("施华洛世奇(Swarovski)","海盗船(CORSAIR)","Julie","卡地亚(Cartier)","宝格丽(Bvlgari)","宝格丽(Bvlgari)","蒂凡尼(Tiffany)",
+	"蒙奇奇(Monchhichi)","梵克雅宝(Vancleef)","爱马仕(Hermes)","迪奥(Dior)","0~100","100~199","199~299","299~499","499~899","899~1000",
+	"1000~2000","2000以上","混彩","黑色系","紫色系","粉色系","白色系","金色系","天然海水珍珠","养殖海水珍珠","天然淡水珍珠","养殖淡水珍珠");
+</script>
+	
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link href="css/select.css" rel="stylesheet" type="text/css" />
+		<link href="css/fixTop.css" rel="stylesheet" type="text/css" />
+		<link href="css/fixRight.css" rel="stylesheet" type="text/css" />
+		<link href="css/tops.css" rel="stylesheet" type="text/css"/>
+		<link href="css/bottoms.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+	<div id="fix_top_div">
+		<a href="index.html" style="float: left"><img style="margin-left: 100px;margin-top: 5px" src="img/topImgs/loginlogoNew.jpg"/></a>
+		<input class="fix_top_textInput" placeholder="请输入要搜索的商品" type="text"/>
+		<a href="select.html"><button class="fix_top_btnSearch" type="button"></button></a>
+
+		<div id="fix_in_btm"></div>
+	</div>
+	<div id="right_user_div">
+		<div id="user_main" class="fixRD"><a href="#" id="user_a"><img style="margin-top: 3px" src="img/index/user_24px.png"/></a></div>
+		<div id="user_buyCar" class="fixRD"><a href="#" id="user_buyCar_a"><img style="margin-top: 20px;width:25px;height:22px;margin-left: -5px" src="img/index/shopping_cart_24px.png"/><p>购物车</p></a></div>
+		<div id="user_coupon" class="fixRD"><a href="#" id="user_coupon_a"><img style="margin-top: 7px" src="img/index/ticket_16px.png"/></a></div>
+
+		<div id="user_qr_code" class="fixRD"><a href="#"><img style="margin-top: 6px" src="img/index/qr_code_24px.png"/></a></div>
+		<div id="user_to_top" class="fixRD"><a href="#"><img style="margin-top: 7px" src="img/index/vertal_align_top_24px.png"/></a></div>
+	</div>
+	<div class="tops_main_div" id="tops_main_div">
+		<div class="tops_top_div">
+			<P class="tops_top_div_p1"><img src="img/topImgs/location.png"/> 送货地址：上海</P>
+			<ul class="tops_top_div_ul">
+				<li style="color: red">Hi,请 <a style="color: red" href="login.html">登录</a></li>
+				<li><a href="register.html">注册</a></li>
+				<li><a href="#">▩我的订单</a></li>
+				<li><a href="#">✉客户服务</a></li>
+				<li><a href="#">企业服务</a></li>
+			</ul>
+		</div>
+		<div class="tops_btm_div">
+			<a href="index.html"><img class="tops_btm_div_logoimg" src="img/topImgs/logo1.png"/></a>
+			<div class="tops_btm_In_div">
+				<input class="tops_btm_In_textInput" placeholder="请输入要搜索的商品" type="text"/>
+				<a href="select.html"><button class="tops_btm_In_btnSearch" type="button"></button></a>
+				<ul class="tops_btm_In_div_ul">
+					<li>燃气壁挂炉</li>
+					<li>小米手环</li>
+					<li>打印机色带</li>
+					<li>婴儿爬行垫</li>
+					<li>计算器</li>
+					<li>移动路由器</li>
+					<li>户外登山鞋</li>
+					<li>无损播放器</li>
+					<li>智能手表</li>
+				</ul>
+				<ul class="tops_btm_In_div_ul2">
+					<li>1号抢购</li>
+					<li>1号团</li>
+					<li>领券中心</li>
+					<li>商城优选</li>
+					<li>全球进口</li>
+					<li>1号生鲜</li>
+					<li>美妆馆</li>
+					<li>家居馆</li>
+					<li>电器城</li>
+				</ul>
+			</div>
+			<button class="tops_shop_carbtn" type="button"/>购物车</button>
+		</div>
+	</div>
+    	
+    		<div id="selectTop">
+    			<p>全部 > 珠宝饰品 > 珍珠项链 > </p>
+    			<div id="selectTopPinPai">品牌：<i>珠韵首饰</i></div>
+    			</div>
+    		<div id="selectInfoDiv">
+    			<div id="selectInfoDiv1">
+    				<p>品牌 &nbsp;&nbsp;</p>
+    				<ul>
+						<li>施华洛世奇(Swarovski)</li>
+						<li>海盗船(CORSAIR)</li>
+						<li>Julie</li>
+						<li>卡地亚</li>
+    				</ul>
+    			</div>
+    			<div id="selectInfoDiv2">
+    				<p>价格&nbsp;&nbsp;</p>
+    				<ul>
+    					<li>0~100</li>
+    					<li>2344~5333</li>
+    					<li>5555~6776</li>
+    				</ul>
+    			</div>
+    			<div id="selectInfoDiv3">
+    				<p>珍珠颜色&nbsp;&nbsp;</p>
+    				<ul>
+    					<li>黑色系</li>
+    					<li>金色系</li>
+    					<li>白色系</li>
+    					<li>彩色系</li>
+    				</ul>
+    			</div>
+    			<div id="selectInfoDiv4">
+    				<p>珍珠分类&nbsp;&nbsp;</p>
+    				<ul>
+    					<li>天然海水珍珠</li>
+    					<li>养殖海水珍珠</li>
+    					<li>养殖淡水珍珠</li>
+    				</ul>
+    			</div>
+    		</div>
+    		
+    		<div id="selectCenterDiv">
+    			<div id="selectLeftDiv">
+    				<div id="selectLeftTopDiv">
+    					<p id="selectLeftP1">▋ 浏览历史</p>
+    					<a href="#"><p id="selectLeftP2">清空</p></a>
+    				</div>
+    				<ul id="selectHistoryUl">
+    				</ul>
+    			</div>
+    			
+				<div id="selectRightDiv">
+					<div id="selectRightTopDiv">
+						<ul>
+							<li style="background-color: #f27e56;color: white;">默认</li>
+							<li>销量 ⇧⇩</li>
+							<li>价格 ⇧⇩</li>
+							<li>新品</li>
+						</ul>
+						<p>共发现120件</p>
+					</div>
+				</div>
+				<ul id="selectRightUl">
+				</ul>
+				<ul id="nextUl">
+					<li style="width: 60px;">上一页</li>
+					<li style="background-color: #f27e56;color: white;">1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>...</li>
+					<li>20</li>
+					<li style="width: 60px;">下一页</li>
+				</ul>
+    		</div>
+
+
+	<div class="bottoms_allin_div" id="bottoms_allin_div">
+		<div class="bottoms_main_div">
+			<ul class="bottoms_main_div_ul">
+				<li class="bottoms_main_div_ul_imgli"><img src="img/bottomImgs/bottoms1.jpg"/></li>
+				<li class="bottoms_main_div_ul_txtli"><span class="bottoms_main_div_ul_spanli">正品保障</span> <br/>正品行货 放心选购 </li>
+				<li class="bottoms_main_div_ul_imgli"><img src="img/bottomImgs/bottoms2.jpg"/></li>
+				<li class="bottoms_main_div_ul_txtli"><span class="bottoms_main_div_ul_spanli">满86包邮</span><br/>满86元 免运费</li>
+				<li class="bottoms_main_div_ul_imgli"><img src="img/bottomImgs/bottoms3.jpg"/></li>
+				<li class="bottoms_main_div_ul_txtli"><span class="bottoms_main_div_ul_spanli">售后无忧</span><br/>7天无理由退货</li>
+				<li class="bottoms_main_div_ul_imgli"><img src="img/bottomImgs/bottoms4.jpg"/></li>
+				<li style="font-size: 14px;color: #b9b9b9;margin-top: 10px;"><span class="bottoms_main_div_ul_spanli">准时送达</span><br/>收货时间由你做主</li>
+			</ul>
+			<div style="width: 1200px;height: auto;overflow: hidden;border-top: 1px solid #e5e5e5">
+				<dl class="bottoms_main_div_dl">
+					<dt>新手入门</dt>
+					<dd><a href="#">购物流程</a></dd>
+					<dd><a href="#">会员制度</a></dd>
+					<dd><a href="#">订单查询</a></dd>
+					<dd><a href="#">发票制度</a></dd>
+				</dl>
+				<dl class="bottoms_main_div_dl">
+					<dt>支付方式</dt>
+					<dd><a href="#">货到付款</a></dd>
+					<dd><a href="#">网上支付</a></dd>
+					<dd><a href="#">银行转账</a></dd>
+					<dd><a href="#">礼品卡支付</a></dd>
+					<dd><a href="#">其它支付</a></dd>
+				</dl>
+				<dl class="bottoms_main_div_dl">
+					<dt>配送服务</dt>
+					<dd><a href="#">配送进度查询</a></dd>
+					<dd><a href="#">商品验货与签收单</a></dd>
+				</dl>
+				<dl class="bottoms_main_div_dl">
+					<dt>售后保障</dt>
+					<dd><a href="#">退换货政策</a></dd>
+					<dd><a href="#">联系客服</a></dd>
+					<dd><a href="#">产品质量保证</a></dd>
+				</dl>
+				<dl class="bottoms_main_div_dl">
+					<dt>联系我们</dt>
+					<dd><a href="#">网站故障报告</a></dd>
+					<dd><a href="#">购物咨询</a></dd>
+					<dd><a href="#">投诉与建议</a></dd>
+				</dl>
+				<div class="bottoms_main_div_qrCoodeDiv">
+					<div class="btqd1">
+						<p class="bottoms_main_div_qrCoodeP1">APP更优惠</p>
+						<img class="bottoms_main_div_qrCoodeI1" src="img/bottomImgs/bottoms5.png"/>
+					</div>
+					<div class="btqd2">
+						<p class="bottoms_main_div_qrCoodeP2">加微信查订单</p>
+						<img class="bottoms_main_div_qrCoodeI2" src="img/bottomImgs/bottoms6.jpg"/>
+					</div>
+					<div class="btqd3">
+						<p class="bottoms_main_div_qrCoodeP3">扫一扫有惊喜哦</p>
+						<img class="bottoms_main_div_qrCoodeI3" src="img/QRCode.png"/>
+					</div>
+				</div>
+			</div>
+			<div class="bottoms_main_div_endDiv">
+				<p>沪ICP备16050468号 | 经营证照 | 互联网药品信息服务资格证 | 违法和不良信息举报电话：0514-85899118 | 沪B2-20170039</p>
+				<p>Copyright© 1号店网上超市 2007-2017，All Rights Reserved</p>
+				<ul>
+					<li><img src="img/bottomImgs/b_1.gif"></li>
+					<li><img src="img/bottomImgs/b_2.gif"></li>
+					<li><img src="img/bottomImgs/b_3.gif"></li>
+					<li><img src="img/bottomImgs/b_4.gif"></li>
+					<li><img src="img/bottomImgs/bg_5.jpg"></li>
+					<li><img src="img/bottomImgs/bg_6.png"></li>
+				</ul>
+			</div>
+			<br />
+		</div>
+	</div>
+	</body>
+	<script src="js/size.js"></script>
+	<script src="js/fixTop.js" type="text/javascript"></script>
+	<script src="js/topbtm.js" type="text/javascript"></script>
+	<script>
+		let str = "";
+        for(let i = 0; i < 6; i++){
+            str  += "<a href='#' style='text-decoration: none'>" +
+                "<li class='selectli1'>" +
+                "<img src='img/other/select"+(i+1)+".jpg' title='"+title1[i]+"'/>" +
+                "<p class='selectli1P2' title='"+title1[i]+"'>"+title1[i]+"</p>" +
+                "<p class='selectli1P1'>￥"+price1[i]+".00</p>" +
+                "<button>查看详情</button>"+
+                "</li></a>";
+        }
+        document.getElementById("selectHistoryUl").innerHTML = str;
+
+		str = "";
+        for(let i = 7; i < 27; i++){
+            str += "<a href='details.html'><li class='selectRightli'>"+
+					"<img  class='selectRightliImg1' src='img/other/select"+i+".jpg'/>"+
+					"<p class='selectRightliP1'>￥"+price1[i-7]+".00</p>"+
+					"<p class='selectRightliP2' title='"+title1[i-7]+"'>"+title1[i-7]+"</p>"+
+					"<p class='selectRightliP3'><img style='vertical-align: middle;' src='img/other/cu.png'/>满329减20</p>"+
+					"<input id='selectText' type='text' value='1'/>"+
+					"<div id='selectTextUpDowDiv'>"+
+					"<input class='selectTextInput' type='button' value='▲'/>"+
+					"<input class='selectTextInput' type='button' value='▼'/>"+
+					"</div>"+
+					"<input class='selectRightBtn' type='button' value='加入购物车'/><br /><br />"+
+					"<p style='font-size: 12px;text-align: left;text-indent: 1em;margin-bottom: 5px;'>"+
+					"<span style='color: #e60012;'>👍90%</span> 👇89</p>"+
+					"<p class='selectRightliP4'>"+dianpu[i-7]+"</p>"+
+					"</li></a>";
+		}
+        document.getElementById("selectRightUl").innerHTML = str;
+
+
+
+	</script>
+</html>

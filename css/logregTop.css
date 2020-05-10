@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#logRegTopDiv{
+	margin: 0 auto;
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #e4e6e8;
+}
+#logRegTopLogo{
+	margin-left: 90px;
+	float: left;
+	margin-top: 15px;
+}
+#logRegTopP1{
+	font-size: 14px;
+	color: #898989;
+	float: right;
+	line-height: 25px;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+#logRegTopP1 a{
+	color: cornflowerblue;
+	text-decoration: none;
+}
+#logRegTopP1 a:hover{
+	text-decoration: underline;
+}
+#logRegTopHelpDiv{
+	text-align: left;
+	margin-top: 15px;
+	margin-right: 60px;
+	float: right;
+	width: 95px;
+	font-size: 14px;
+	height: 25px;
+	/*border: 1px solid  #BEC0C2;*/
+}
+#logRegTopHelpDiv:hover{
+	cursor: pointer;
+}
+
+#logRegTopHelpDiv p{
+	float: right;
+	line-height: 25px;
+	font-size: 12px;
+	width: 75px;
+}
+#logRegTopHelpDiv img{
+	vertical-align: middle;
+	line-height: 25px;
+}

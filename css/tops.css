@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.tops_main_div{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.tops_top_div{
+    width: 100%;
+    height: 28px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e5e5e5;
+}
+.tops_top_div_p1{
+    font-size: 12px;
+    line-height: 28px;
+    width: 150px;
+    margin-left: 80px;
+    color: #606060;
+    float: left;
+}
+.tops_top_div_p1 img{
+    width: 10px;
+    height: 15px;
+}
+.tops_top_div_ul{
+    width: 400px;
+    height: 28px;
+    float: right;
+    list-style: none;
+    text-decoration: none;
+}
+.tops_top_div_ul li{
+    float: left;
+    line-height: 28px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.tops_top_div_ul li a{
+    color: #606060;
+}
+.tops_top_div_ul li a:hover{
+    color: red;
+}
+.tops_btm_div{
+    margin: 0 auto;
+    width: 1300px;
+    height: auto;
+    overflow: hidden;
+}
+.tops_btm_div_logoimg{
+    width: 260px;
+    height: 147px;
+    float: left;
+}
+.tops_btm_In_div{
+    width: 800px;
+    height: 147px;
+    float: left;
+    overflow: hidden;
+}
+.tops_btm_In_textInput{
+    float: left;
+    width: 730px;
+    height: 35px;
+    outline: none;
+    font-size: 15px;
+    padding-left: 13px;
+    vertical-align:top;
+    margin-top: 30px;
+    border: 2px solid #ff4040;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.tops_btm_In_btnSearch{
+    float: left;
+    width: 50px;
+    height: 39px;
+    background-image: url("../img/topImgs/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+    text-align: center;
+    outline: none;
+    padding: 0;
+    background-color: #ff4040;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.tops_btm_In_div_ul{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+}
+.tops_btm_In_div_ul li{
+    float: left;
+    font-size: 13px;
+    color: #b7b7b7;
+    line-height: 30px;
+    margin-right: 20px;
+}
+.tops_btm_In_div_ul li:hover{
+    cursor: pointer;
+    color: red;
+}
+.tops_btm_In_div_ul2{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+}
+.tops_btm_In_div_ul2 li{
+    float: left;
+    font-size: 16px;
+    color: black;
+    margin-right: 33px;
+    line-height: 45px;
+}
+.tops_btm_In_div_ul2 li:hover{
+    cursor: pointer;
+    color: red;
+}
+.tops_shop_carbtn{
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 120px;
+    height: 38px;
+    float: right;
+    border: 1px solid #dddddd;
+    background-color: white;
+    background-image: url("../img/topImgs/shopping_cart.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 20px;
+    text-align: right;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #4f4f4f;
+    padding-right: 20px;
+    outline: none;
+    cursor: pointer;
+}
